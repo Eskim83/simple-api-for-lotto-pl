@@ -19,8 +19,8 @@ try {
     print_r($response);
 
     // Przykład z parametrami
-	$response = $client->request('lotteries/info', ['gameType' => 'Lotto']);
-	print_r($response);
+    $response = $client->request('lotteries/info', ['gameType' => 'Lotto']);
+    print_r($response);
 	
 } catch (Exception $e) {
 
